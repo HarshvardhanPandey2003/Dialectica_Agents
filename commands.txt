@@ -1,0 +1,11 @@
+# Start development
+uv venv && .venv\Scripts\Activate.ps1
+
+# Add packages as needed
+uv add new-package
+
+# Run your app
+uv run src\main.py
+
+# Update all dependencies
+uv lock --upgrade
